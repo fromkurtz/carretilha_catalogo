@@ -106,5 +106,27 @@
       "iv": "6VTpIhvCXIIqpNHL",
       "dados": "7sh6Ko7QXO/R/Pd4EZOx7M9E5ZK0knRPJzlbPDR8gMXdygtnu2RpPrNeZVFMn9GQjU232ObLzNrpkSYE58wdPlJ4hYXTCEAXtqIo8aoCGhzFrz/YAq2Eke6Pu3I6Cu9JnT4CAIoA3YsX2p2spyIWpNOXL1dI"
     }
+  },
+  {
+    "id": "item-6",
+    "numero": 6,
+    "nome": "Carretilha Curado MGL 150 HG",
+    "descricao": "Modelo 25, relação 7.4, para destros, 96% nova. Comprada há alguns meses, sem revestimento aplicado, três pequenas manchas. Uma pequena mancha no carretel devido à troca de linha. Excelente estado. Caixa original, cartão de garantia e manual de instruções incluídos.",
+    "categoria": "Curado",
+    "preco": 800,
+    "fotos": [
+      "img/item-6/1.jpg",
+      "img/item-6/2.jpg",
+      "img/item-6/3.jpg",
+      "img/item-6/4.jpg",
+      "img/item-6/5.jpg",
+      "img/item-6/6.jpg",
+      "img/item-6/7.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "ShNY1Uj3kv41tsJRzrQ3CQ==",
+      "iv": "polwCFZc/2Awcuzh",
+      "dados": "5taMpoaSsSdDelVZ1UI0C6yiK7F3hey7SF9AhwB+qKST9yxG/9I/t97aMwK2wokjqoMWGBEUzBBO0N83l5wVKnrFUt0Gxo0G8Rx934aG4LOAS19JU1ifbTgtLd436CHqokcaUcbJ7GVXrMF2WkpkN1ZioLiqQA=="
+    }
   }
 ]
