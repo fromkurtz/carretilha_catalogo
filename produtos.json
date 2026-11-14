@@ -60,5 +60,28 @@
       "iv": "AtfKFS+A4waEFteC",
       "dados": "mdFkeXazOuoMM06/mBA4ZVrOoda1Z2alXXIhNt7iMkTSkFK8A/k+5jM7rITrQ8dewMJYADNv26mffJO5qM+c77Y2/uOB8BoHaUyQIGUcIHNRPy6B5KZRPhllmQw0H/tkyxz0p9H1Us0MU+Fvz9y7UDypih+pMw=="
     }
+  },
+  {
+    "id": "item-4",
+    "numero": 4,
+    "nome": "CURADO MGL 71HG",
+    "descricao": "Modelo: Shimano Curado MGL 71HG para canhoto \nRelação de transmissão: 7,4.\nAcessórios: Caixa, manual e\ntodos os itens foram lavados uma vez. Pessoalmente, considero que o estado geral é bastante bom.",
+    "categoria": "Curado",
+    "preco": 1000,
+    "fotos": [
+      "img/item-4/1.jpg",
+      "img/item-4/2.jpg",
+      "img/item-4/3.jpg",
+      "img/item-4/4.jpg",
+      "img/item-4/5.jpg",
+      "img/item-4/6.jpg",
+      "img/item-4/7.jpg",
+      "img/item-4/8.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "I9vRtM9uZUaUEdRH68iE/w==",
+      "iv": "QFGMCLgAp+9lxupS",
+      "dados": "+bSWsTeQ/9Cjx0JG6oUn5bp0ljw31CDzguygHS9q8IPkJ0fPeB4VaK5v8PjsJiygE39H/0fNFYyY40jAeZrh5/VjHdGKfutZR5Q2Z53277W1wftq19CQzh3Qr3kEDHBQiQdJX8Q1RIBXrc1+AvbqBcum5hjR0V0ggiluxGWxMH2HEwzqIFw="
+    }
   }
 ]
