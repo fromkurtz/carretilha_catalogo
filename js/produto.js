@@ -127,7 +127,9 @@
   );
   if (produto.descricao) info.appendChild(el("p", "descricao", produto.descricao));
 
-  const consulta = el("a", "botao-whatsapp", "Consultar se este item ainda está disponível");
+  const consulta = el("a", "botao-whatsapp");
+  consulta.insertAdjacentHTML("beforeend", ICONES.whatsapp);
+  consulta.appendChild(document.createTextNode("Consultar se este item ainda está disponível"));
   consulta.href = linkWhatsapp(produto);
   consulta.target = "_blank";
   consulta.rel = "noopener";

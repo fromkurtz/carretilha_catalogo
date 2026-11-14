@@ -293,3 +293,21 @@ main { padding-bottom: 64px; }
 .admin details { margin-top: 16px; color: var(--texto-suave); }
 .admin summary { cursor: pointer; font-weight: 600; color: var(--texto); }
 .admin ol { padding-left: 20px; }
+
+.admin h2 { margin: 32px 0 8px; font-size: 1.2rem; }
+.lista-admin { margin: 0; padding: 0; list-style: none; }
+.lista-admin li {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 8px 12px; padding: 12px 0; border-bottom: 1px solid var(--borda);
+}
+.botao-pequeno { margin-top: 0; padding: 8px 14px; font-size: 0.9rem; }
+.link-fornecedor { flex-basis: 100%; word-break: break-all; color: var(--texto-suave); }
+
+.acoes-item { display: flex; flex-wrap: wrap; gap: 8px; }
+.botao-perigo { color: #B42318; border-color: #B42318; }
+.foto-atual { display: grid; justify-items: center; gap: 4px; font-size: 0.85rem; cursor: pointer; }
+.foto-atual img { width: 72px; height: 72px; object-fit: cover; border-radius: 10px; }
+.campo .rotulo { font-weight: 600; }
+
+.botao-whatsapp { gap: 10px; }
+.botao-whatsapp svg { flex: none; }
