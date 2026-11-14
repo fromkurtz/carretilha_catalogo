@@ -83,5 +83,28 @@
       "iv": "QFGMCLgAp+9lxupS",
       "dados": "+bSWsTeQ/9Cjx0JG6oUn5bp0ljw31CDzguygHS9q8IPkJ0fPeB4VaK5v8PjsJiygE39H/0fNFYyY40jAeZrh5/VjHdGKfutZR5Q2Z53277W1wftq19CQzh3Qr3kEDHBQiQdJX8Q1RIBXrc1+AvbqBcum5hjR0V0ggiluxGWxMH2HEwzqIFw="
     }
+  },
+  {
+    "id": "item-5",
+    "numero": 5,
+    "nome": "SHIMANO Scorpion MD 201 XG",
+    "descricao": "A Shimano Scorpion MD 201 XG é uma carretilha forte, rápida e resistente, feita para encarar pescarias pesadas com iscas médias e grandes. O código 201 indica que a manivela fica do lado esquerdo, enquanto a sigla XG mostra que ela tem recolhimento ultrarrápido.",
+    "categoria": "Scorpion",
+    "preco": 1250,
+    "fotos": [
+      "img/item-5/1.jpg",
+      "img/item-5/2.jpg",
+      "img/item-5/3.jpg",
+      "img/item-5/4.jpg",
+      "img/item-5/5.jpg",
+      "img/item-5/6.jpg",
+      "img/item-5/7.jpg",
+      "img/item-5/8.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "JgEHYsncCK6E5EN0kVkJ8Q==",
+      "iv": "6VTpIhvCXIIqpNHL",
+      "dados": "7sh6Ko7QXO/R/Pd4EZOx7M9E5ZK0knRPJzlbPDR8gMXdygtnu2RpPrNeZVFMn9GQjU232ObLzNrpkSYE58wdPlJ4hYXTCEAXtqIo8aoCGhzFrz/YAq2Eke6Pu3I6Cu9JnT4CAIoA3YsX2p2spyIWpNOXL1dI"
+    }
   }
 ]
