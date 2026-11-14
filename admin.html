@@ -63,11 +63,13 @@
         <button class="botao" id="abrir-form" type="button">Adicionar produto</button>
         <button class="botao botao-sec" id="sair" type="button">Sair</button>
       </div>
+      <h2 id="titulo-lista" hidden>Produtos cadastrados</h2>
+      <ul id="lista-produtos" class="lista-admin"></ul>
     </section>
 
     <!-- Tela 3: novo produto -->
     <section id="tela-form" hidden>
-      <h1>Novo produto</h1>
+      <h1 id="form-titulo">Novo produto</h1>
       <form id="form-produto">
         <div class="campo"><label for="nome">Título</label><input id="nome" maxlength="80" required></div>
         <div class="campo"><label for="descricao">Descrição</label><textarea id="descricao" rows="5" maxlength="1000"></textarea></div>
@@ -79,7 +81,17 @@
         </div>
         <div class="campo"><label for="preco">Preço</label><input id="preco" inputmode="decimal" placeholder="89,90" required></div>
         <div class="campo">
-          <label for="fotos">Fotos</label>
+          <label for="link">Link do fornecedor</label>
+          <input id="link" type="url" placeholder="https://..." autocomplete="off">
+          <small>Opcional. Fica criptografado e só aparece aqui no admin, nunca no catálogo.</small>
+        </div>
+        <div class="campo" id="fotos-atuais" hidden>
+          <span class="rotulo">Fotos atuais</span>
+          <div class="previa" id="lista-fotos-atuais"></div>
+          <small>Marque as fotos que deseja remover. A primeira que sobrar é a capa.</small>
+        </div>
+        <div class="campo">
+          <label for="fotos" id="rotulo-fotos">Fotos</label>
           <input id="fotos" type="file" accept="image/*" multiple required>
           <small>De 1 a 8 fotos. A primeira é a capa do catálogo.</small>
           <div class="previa" id="previa"></div>
