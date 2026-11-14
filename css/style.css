@@ -258,3 +258,38 @@ main { padding-bottom: 64px; }
   }
   .info { position: sticky; top: 32px; }
 }
+
+/* ---------- Descrição, WhatsApp e avisos ---------- */
+.numero-item { margin: 0 0 4px; color: var(--texto-suave); font-size: 0.9rem; font-weight: 600; }
+.descricao { margin: 16px 0 0; max-width: 60ch; color: var(--texto-suave); white-space: pre-line; }
+.botao-whatsapp, .botao {
+  display: inline-flex; align-items: center; justify-content: center;
+  margin-top: 24px; padding: 14px 22px; border: 0; border-radius: 999px;
+  background: var(--destaque); color: #fff; font: inherit; font-weight: 700;
+  text-decoration: none; cursor: pointer;
+}
+.botao:disabled { opacity: 0.55; cursor: default; }
+.botao-sec { background: transparent; color: var(--texto); border: 1px solid var(--borda); }
+.botao-whatsapp:focus-visible, .botao:focus-visible { outline: 3px solid var(--destaque); outline-offset: 3px; }
+.aviso-vazio { padding-block: 32px; color: var(--texto-suave); }
+
+/* ---------- Admin ---------- */
+.admin { max-width: 640px; padding-top: 32px; }
+.admin h1 { margin: 0 0 8px; font-size: 1.8rem; letter-spacing: -0.02em; }
+.admin p { color: var(--texto-suave); }
+.campo { display: grid; gap: 6px; margin-top: 16px; }
+.campo label { font-weight: 600; }
+.campo input, .campo textarea {
+  width: 100%; padding: 12px 14px; border: 1px solid var(--borda); border-radius: 10px;
+  background: var(--superficie); color: var(--texto); font: inherit;
+}
+.campo input:focus-visible, .campo textarea:focus-visible { outline: 3px solid var(--destaque); outline-offset: 1px; }
+.campo small { color: var(--texto-suave); }
+.acoes { display: flex; flex-wrap: wrap; gap: 12px; }
+.erro { color: #B42318; font-weight: 600; min-height: 1.5em; }
+.status { min-height: 1.5em; font-weight: 600; color: var(--destaque); }
+.previa { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.previa img { width: 72px; height: 72px; object-fit: cover; border-radius: 10px; }
+.admin details { margin-top: 16px; color: var(--texto-suave); }
+.admin summary { cursor: pointer; font-weight: 600; color: var(--texto); }
+.admin ol { padding-left: 20px; }

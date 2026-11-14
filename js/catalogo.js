@@ -1,5 +1,5 @@
 /* Monta a página inicial. Não precisa editar. */
-(function () {
+(async function () {
   "use strict";
 
   document.title = LOJA.nome;
@@ -9,6 +9,20 @@
 
   const raiz = document.getElementById("catalogo");
   raiz.textContent = "";
+
+  let PRODUTOS;
+  try {
+    PRODUTOS = await carregarProdutos();
+  } catch (erro) {
+    raiz.appendChild(
+      el("p", "aviso-vazio", "Não foi possível carregar os produtos. Se abriu o arquivo direto do computador, use um servidor local ou publique no GitHub Pages.")
+    );
+    return;
+  }
+  if (!PRODUTOS.length) {
+    raiz.appendChild(el("p", "aviso-vazio", "Nenhum produto cadastrado ainda."));
+    return;
+  }
 
   // Agrupa os produtos por categoria, mantendo a ordem da lista
   const grupos = new Map();

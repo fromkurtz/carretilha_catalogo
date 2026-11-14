@@ -60,3 +60,16 @@ function criarSeta(rotulo, icone) {
 function comportamentoRolagem() {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
 }
+
+/* Lê a lista de produtos publicada em produtos.json */
+async function carregarProdutos() {
+  const resposta = await fetch("produtos.json?v=" + Date.now(), { cache: "no-store" });
+  if (!resposta.ok) throw new Error("produtos.json não encontrado");
+  return resposta.json();
+}
+
+/* Abre o WhatsApp com a pergunta de disponibilidade já escrita */
+function linkWhatsapp(produto) {
+  const mensagem = "Este item ainda está disponível? Número do item = " + produto.numero;
+  return "https://api.whatsapp.com/send?phone=" + WHATSAPP + "&text=" + encodeURIComponent(mensagem);
+}

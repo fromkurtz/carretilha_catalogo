@@ -1,5 +1,5 @@
 /* Monta a página de um produto. Não precisa editar. */
-(function () {
+(async function () {
   "use strict";
 
   document.getElementById("loja-nome").textContent = LOJA.nome;
@@ -22,7 +22,13 @@
   raiz.textContent = "";
 
   const id = new URLSearchParams(location.search).get("id");
-  const produto = PRODUTOS.find((p) => p.id === id);
+  let lista = [];
+  try {
+    lista = await carregarProdutos();
+  } catch (erro) {
+    /* cai no aviso de produto não encontrado */
+  }
+  const produto = lista.find((p) => p.id === id);
 
   if (!produto) {
     document.title = "Produto não encontrado | " + LOJA.nome;
@@ -114,7 +120,18 @@
 
   /* ---------- Nome e preço ---------- */
   const info = el("div", "info");
-  info.append(el("h1", null, produto.nome), el("p", "preco", formatarPreco(produto.preco)));
+  info.append(
+    el("p", "numero-item", "Item nº " + produto.numero),
+    el("h1", null, produto.nome),
+    el("p", "preco", formatarPreco(produto.preco))
+  );
+  if (produto.descricao) info.appendChild(el("p", "descricao", produto.descricao));
+
+  const consulta = el("a", "botao-whatsapp", "Consultar se este item ainda está disponível");
+  consulta.href = linkWhatsapp(produto);
+  consulta.target = "_blank";
+  consulta.rel = "noopener";
+  info.appendChild(consulta);
 
   layout.append(galeria, info);
   raiz.appendChild(layout);

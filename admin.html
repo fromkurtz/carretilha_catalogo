@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Administração</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="conteudo">
+      <a class="marca" href="index.html" id="loja-nome">Catálogo</a>
+    </div>
+  </header>
+
+  <main class="conteudo admin">
+
+    <!-- Tela 1: entrada (primeiro acesso ou senha) -->
+    <section id="tela-entrada" hidden>
+      <h1 id="entrada-titulo"></h1>
+      <p id="entrada-texto"></p>
+      <form id="form-entrada">
+        <div id="campos-config">
+          <div class="campo"><label for="dono">Usuário do GitHub</label><input id="dono" autocomplete="off"></div>
+          <div class="campo"><label for="repo">Nome do repositório</label><input id="repo" autocomplete="off"></div>
+          <div class="campo"><label for="branch">Branch</label><input id="branch" value="main" autocomplete="off"></div>
+          <div class="campo">
+            <label for="token">Token do GitHub</label>
+            <input id="token" type="password" autocomplete="off">
+            <small>Fica guardado só neste navegador, protegido pela senha abaixo.</small>
+          </div>
+          <details>
+            <summary>Como criar o token</summary>
+            <ol>
+              <li>No GitHub, abra Settings &gt; Developer settings &gt; Personal access tokens &gt; Fine-grained tokens.</li>
+              <li>Clique em Generate new token e escolha Only select repositories, marcando só o repositório do catálogo.</li>
+              <li>Em Repository permissions, deixe Contents como Read and write.</li>
+              <li>Gere o token e cole aqui.</li>
+            </ol>
+          </details>
+        </div>
+        <div class="campo">
+          <label for="senha" id="rotulo-senha">Senha</label>
+          <input id="senha" type="password" autocomplete="current-password" required>
+        </div>
+        <p id="entrada-erro" class="erro" role="alert"></p>
+        <div class="acoes">
+          <button class="botao" id="entrar" type="submit">Entrar</button>
+          <button class="botao botao-sec" id="reconfigurar" type="button" hidden>Reconfigurar acesso</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Tela 2: painel -->
+    <section id="tela-painel" hidden>
+      <h1>Painel</h1>
+      <p id="painel-resumo"></p>
+      <div class="acoes">
+        <button class="botao" id="abrir-form" type="button">Adicionar produto</button>
+        <button class="botao botao-sec" id="sair" type="button">Sair</button>
+      </div>
+    </section>
+
+    <!-- Tela 3: novo produto -->
+    <section id="tela-form" hidden>
+      <h1>Novo produto</h1>
+      <form id="form-produto">
+        <div class="campo"><label for="nome">Título</label><input id="nome" maxlength="80" required></div>
+        <div class="campo"><label for="descricao">Descrição</label><textarea id="descricao" rows="5" maxlength="1000"></textarea></div>
+        <div class="campo">
+          <label for="categoria">Categoria</label>
+          <input id="categoria" list="lista-categorias" maxlength="40" required>
+          <datalist id="lista-categorias"></datalist>
+          <small>Escolha uma existente ou digite uma nova.</small>
+        </div>
+        <div class="campo"><label for="preco">Preço</label><input id="preco" inputmode="decimal" placeholder="89,90" required></div>
+        <div class="campo">
+          <label for="fotos">Fotos</label>
+          <input id="fotos" type="file" accept="image/*" multiple required>
+          <small>De 1 a 8 fotos. A primeira é a capa do catálogo.</small>
+          <div class="previa" id="previa"></div>
+        </div>
+        <p id="form-status" class="status" role="status"></p>
+        <p id="form-erro" class="erro" role="alert"></p>
+        <div class="acoes">
+          <button class="botao" id="publicar" type="submit">Publicar produto</button>
+          <button class="botao botao-sec" id="cancelar" type="button">Cancelar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="js/produtos.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
