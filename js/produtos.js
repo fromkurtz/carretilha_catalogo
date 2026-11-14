@@ -4,7 +4,7 @@
    ========================================================== */
 
 const LOJA = {
-  nome: "Nome da sua loja",
+  nome: "KURTZ CAST",
   titulo: "Catálogo de produtos",
   subtitulo: "Veja os produtos disponíveis e toque em um para ver mais fotos.",
 };
