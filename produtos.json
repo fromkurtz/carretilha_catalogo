@@ -17,5 +17,27 @@
       "iv": "ZFLv3IverOcWcgfS",
       "dados": "H+GkrE9MXr5i90QvbAbQo/xryrcrb7o6gt/zWLHjLdCADBn+HVnwCqGtvPEkMlxnsjVelZ2p5go7uQ+Z1kun9QWr6M6Yk5qeOD9g4YR5cEyurhLnLq3om8+6VV43i36LNdSsiXp2PnsLY3gUXi8lyiTXXWRWKBDvg4cph450jkVSflTomP0n"
     }
+  },
+  {
+    "id": "item-2",
+    "numero": 2,
+    "nome": "Shimano Curado BFS XG",
+    "descricao": "totalmente novo, com sistema Shimano BFS, ideal para iscas pequenas. Possui o mesmo sistema do Adelaide BFS, relação de recolhimento de 8.2:1\n\nPRODUTO NOVO",
+    "categoria": "Curado",
+    "preco": 1100,
+    "fotos": [
+      "img/item-2/1.jpg",
+      "img/item-2/2.jpg",
+      "img/item-2/3.jpg",
+      "img/item-2/4.jpg",
+      "img/item-2/5.jpg",
+      "img/item-2/6.jpg",
+      "img/item-2/7.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "pglUQT9u/t/dgv2pCqXsww==",
+      "iv": "F6hNTbXJuI9ln8vi",
+      "dados": "gDlv8HLx1DE3SIWiZMGmjb43NFTlNvVW7uMYgil+KsQ3vby6Cd00HGGerI9fogg79fKdWHu+RiQMZK584YzWkkBpiEiBXQPVN3sdlfSmJ1QcmqludTwF2ZLevvUIi918crf9FJI3rSjJLEhPCxTbCf2VrPYaiJY="
+    }
   }
 ]
