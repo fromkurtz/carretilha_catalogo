@@ -39,5 +39,26 @@
       "iv": "F6hNTbXJuI9ln8vi",
       "dados": "gDlv8HLx1DE3SIWiZMGmjb43NFTlNvVW7uMYgil+KsQ3vby6Cd00HGGerI9fogg79fKdWHu+RiQMZK584YzWkkBpiEiBXQPVN3sdlfSmJ1QcmqludTwF2ZLevvUIi918crf9FJI3rSjJLEhPCxTbCf2VrPYaiJY="
     }
+  },
+  {
+    "id": "item-3",
+    "numero": 3,
+    "nome": "Shimano Curado DC200HG",
+    "descricao": "Usada poucas vezes, 7 velocidades na mão direita, caixa, manual e certificado de garantia inclusos.\n\nPRODUTO USADO",
+    "categoria": "Curado DC",
+    "preco": 1549.9,
+    "fotos": [
+      "img/item-3/1.jpg",
+      "img/item-3/2.jpg",
+      "img/item-3/3.jpg",
+      "img/item-3/4.jpg",
+      "img/item-3/5.jpg",
+      "img/item-3/6.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "CoCVOXw5TkX60aWp+B13+w==",
+      "iv": "AtfKFS+A4waEFteC",
+      "dados": "mdFkeXazOuoMM06/mBA4ZVrOoda1Z2alXXIhNt7iMkTSkFK8A/k+5jM7rITrQ8dewMJYADNv26mffJO5qM+c77Y2/uOB8BoHaUyQIGUcIHNRPy6B5KZRPhllmQw0H/tkyxz0p9H1Us0MU+Fvz9y7UDypih+pMw=="
+    }
   }
 ]
