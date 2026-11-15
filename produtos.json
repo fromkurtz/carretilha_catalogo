@@ -234,5 +234,24 @@
       "iv": "wGPFxdu5fvx+BUom",
       "dados": "E6wTdEaehU5AjAnDFTCADoYb7EKL/sn/9ajrR/kuNjOBIJsogURJnIS/KtU8EjT/s7AXVNEDZ3x6wv5NXcwVRxLs4wLA1eQhPXeZtSLMbyjelMvHo0ECH0EKBp3IkRNgtzS5uKKkw4+y8ETWDA/dywhsucV0gzw="
     }
+  },
+  {
+    "id": "item-12",
+    "numero": 12,
+    "nome": "Shimano Scorpion DC 151XG",
+    "descricao": "Carretilha Shimano Scorpion DC, para canhotos, com embalagem original, em estado quase novo, aparência impecável, sem sinais óbvios de uso, estrutura completa, funcionamento normal, giro suave, freio eletrônico DC, acompanha linha de pesca verde.",
+    "categoria": "Scorpion DC",
+    "preco": 1350,
+    "fotos": [
+      "img/item-12/1.jpg",
+      "img/item-12/2.jpg",
+      "img/item-12/3.jpg",
+      "img/item-12/4.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "XdqVmpW3rMToZTvgWogokA==",
+      "iv": "pzlmepruQREAb4gk",
+      "dados": "atLveBnh/byG5oKW0g3KO9bXoFlYIEWykXxhcMTnpocLtnpU94R8kf5ZnmV/Q1+imFdBmWnvEK/5t4qdK/78n3vUPDe2UpEbV6myqDk7b3iZqdaYqBo0hkD1hWf6GlDYtmfAZ7zJEanw8uHl+z3QGUuXxTTkMjw="
+    }
   }
 ]
