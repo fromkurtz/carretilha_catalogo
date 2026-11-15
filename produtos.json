@@ -128,5 +128,27 @@
       "iv": "polwCFZc/2Awcuzh",
       "dados": "5taMpoaSsSdDelVZ1UI0C6yiK7F3hey7SF9AhwB+qKST9yxG/9I/t97aMwK2wokjqoMWGBEUzBBO0N83l5wVKnrFUt0Gxo0G8Rx934aG4LOAS19JU1ifbTgtLd436CHqokcaUcbJ7GVXrMF2WkpkN1ZioLiqQA=="
     }
+  },
+  {
+    "id": "item-7",
+    "numero": 7,
+    "nome": "Shimano Curado 300HG",
+    "descricao": "Carretel Shimano Curado 300HG para pesca com isca artificial, para destros, conjunto completo com cartão. Em estado de novo (98%), com pequenos arranhões, sem amassados ​​ou defeitos, exceto por problemas comuns como lascas de tinta",
+    "categoria": "Curado",
+    "preco": 1150,
+    "fotos": [
+      "img/item-7/1.jpg",
+      "img/item-7/2.jpg",
+      "img/item-7/3.jpg",
+      "img/item-7/4.jpg",
+      "img/item-7/5.jpg",
+      "img/item-7/6.jpg",
+      "img/item-7/7.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "agW0VXyqXbnCVKZnNRI1QQ==",
+      "iv": "/FuXAow1xn/xSKPA",
+      "dados": "p/KGPWoxk4T/k/jUQNqPBH+OBP71tiSWDqNxMQ55G3c6slak8yz/GrJ1QTTFXimWKUjM1C5vypbZq74SGUfiGi+tBTFoGTebArI/1FPBKOuiAYz1B4XKHQtQ9G4D4CgYz8vymvfV48/84JPT5ipK8TXqWbXmjg=="
+    }
   }
 ]
