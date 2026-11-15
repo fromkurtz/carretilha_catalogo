@@ -253,5 +253,23 @@
       "iv": "pzlmepruQREAb4gk",
       "dados": "atLveBnh/byG5oKW0g3KO9bXoFlYIEWykXxhcMTnpocLtnpU94R8kf5ZnmV/Q1+imFdBmWnvEK/5t4qdK/78n3vUPDe2UpEbV6myqDk7b3iZqdaYqBo0hkD1hWf6GlDYtmfAZ7zJEanw8uHl+z3QGUuXxTTkMjw="
     }
+  },
+  {
+    "id": "item-13",
+    "numero": 13,
+    "nome": "Shimano Curado DC 151HG",
+    "descricao": "Shimano Curado DC 151HG, para canhoto. 99% nova, sem amassados ​​ou arranhões.",
+    "categoria": "Curado DC",
+    "preco": 1100,
+    "fotos": [
+      "img/item-13/1.jpg",
+      "img/item-13/2.jpg",
+      "img/item-13/3.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "o25I9fFNaEh7nulCQfK5Ig==",
+      "iv": "z8D+xf6DgtcvxK2K",
+      "dados": "66rUGHP5zYJS5BUbcRlI39lI/6nNXQe23TaX/AGT3rI/8bLNXjmJ+XSCqtquWAdz706XP6MwJDNJ/xcWnxoI9pbEDmdWU5/nvkGsFv2bGgaD18aU2pZTmUZtaEHaAvy3fFuxnpgP9TBOcxiFMnjPPQxVcUvAgjk="
+    }
   }
 ]
