@@ -211,5 +211,28 @@
       "iv": "0/jF2/RXn0OtSQ22",
       "dados": "I/v0I573TYetJ+MPbuUaeRqi5jGqfrRysqGy1Igx8iNVcaPATVAnW5+e9nLEJLKgowGOHGJoRehYPe+yXDAjnLlhFAABPSeWsQ7USS3DsCIv6TeR4pJ78Jd9uhVYc5JAlsBir2Kab4+BBVPc0bJ/Q14423btYSM="
     }
+  },
+  {
+    "id": "item-11",
+    "numero": 11,
+    "nome": "Shimano Red Scorpion DC MD 201HG",
+    "descricao": "Modelo 26, novo, Shimano Red Scorpion DC MD 201HG, apenas testado, em estado de novo, sem arranhões, sem serrilhas, original e sem modificações.",
+    "categoria": "Scorpion DC",
+    "preco": 1700,
+    "fotos": [
+      "img/item-11/1.jpg",
+      "img/item-11/2.jpg",
+      "img/item-11/3.jpg",
+      "img/item-11/4.jpg",
+      "img/item-11/5.jpg",
+      "img/item-11/6.jpg",
+      "img/item-11/7.jpg",
+      "img/item-11/8.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "PPZkK+WPQXsFvBOZTqqgCQ==",
+      "iv": "wGPFxdu5fvx+BUom",
+      "dados": "E6wTdEaehU5AjAnDFTCADoYb7EKL/sn/9ajrR/kuNjOBIJsogURJnIS/KtU8EjT/s7AXVNEDZ3x6wv5NXcwVRxLs4wLA1eQhPXeZtSLMbyjelMvHo0ECH0EKBp3IkRNgtzS5uKKkw4+y8ETWDA/dywhsucV0gzw="
+    }
   }
 ]
