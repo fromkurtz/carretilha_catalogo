@@ -150,5 +150,23 @@
       "iv": "/FuXAow1xn/xSKPA",
       "dados": "p/KGPWoxk4T/k/jUQNqPBH+OBP71tiSWDqNxMQ55G3c6slak8yz/GrJ1QTTFXimWKUjM1C5vypbZq74SGUfiGi+tBTFoGTebArI/1FPBKOuiAYz1B4XKHQtQ9G4D4CgYz8vymvfV48/84JPT5ipK8TXqWbXmjg=="
     }
+  },
+  {
+    "id": "item-8",
+    "numero": 8,
+    "nome": "Shimano Curado 200hg",
+    "descricao": "Carretel Shimano Curado 2023\n\nPRODUTO NOVO",
+    "categoria": "Curado",
+    "preco": 1250,
+    "fotos": [
+      "img/item-8/1.jpg",
+      "img/item-8/2.jpg",
+      "img/item-8/3.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "i3rfGYUloa/hx3tHYWrgqA==",
+      "iv": "p2pP0Z7v1XCOo69x",
+      "dados": "bWjdXKHUPJTc08f8NbVRLBwNidH+Dc9BwDEoB2qVSBGd30tPTGT5Tf87E7G2YPnDXTffR6pfcPrYdr+WGYz4BcJ7AkO6uf5SZMHwlEZgBCLHvo7A3EcFBvuGba9FnatMxptYW9fHi+ksOy5p13l1QcrcO8gyxg=="
+    }
   }
 ]
