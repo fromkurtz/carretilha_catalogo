@@ -190,5 +190,26 @@
       "iv": "oFDoxkVorRI1lo7G",
       "dados": "H6iI6YDbQHTsykUC1T9A2ZM+PHCAXDlSHXZHGGOIQh/cSef/NhT5CHMyVvfrs4HhDstHQ2PvOhs25NAqoJ9RZQ5fTj7TZdc4uCcRfBNSywW9lrxt/HPSI2DEtQ8IKpKuiEGzJKkK2VXRw3YtscCw3WkXCI23Og=="
     }
+  },
+  {
+    "id": "item-10",
+    "numero": 10,
+    "nome": "Shimano Scorpion DC 151 HG",
+    "descricao": "Carretilha Shimano Red Scorpion DC 2021 para canhotos, 7.4 velocidades, funcionamento suave.\n\nNAO ACOMPANHA CAIXA E MANUAL.",
+    "categoria": "Scorpion DC",
+    "preco": 1300,
+    "fotos": [
+      "img/item-10/1.jpg",
+      "img/item-10/2.jpg",
+      "img/item-10/3.jpg",
+      "img/item-10/4.jpg",
+      "img/item-10/5.jpg",
+      "img/item-10/6.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "DavTuRyR3R54V43CVfavoQ==",
+      "iv": "0/jF2/RXn0OtSQ22",
+      "dados": "I/v0I573TYetJ+MPbuUaeRqi5jGqfrRysqGy1Igx8iNVcaPATVAnW5+e9nLEJLKgowGOHGJoRehYPe+yXDAjnLlhFAABPSeWsQ7USS3DsCIv6TeR4pJ78Jd9uhVYc5JAlsBir2Kab4+BBVPc0bJ/Q14423btYSM="
+    }
   }
 ]
