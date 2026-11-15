@@ -168,5 +168,27 @@
       "iv": "p2pP0Z7v1XCOo69x",
       "dados": "bWjdXKHUPJTc08f8NbVRLBwNidH+Dc9BwDEoB2qVSBGd30tPTGT5Tf87E7G2YPnDXTffR6pfcPrYdr+WGYz4BcJ7AkO6uf5SZMHwlEZgBCLHvo7A3EcFBvuGba9FnatMxptYW9fHi+ksOy5p13l1QcrcO8gyxg=="
     }
+  },
+  {
+    "id": "item-9",
+    "numero": 9,
+    "nome": "Shimano SLX DC 151",
+    "descricao": "6.2 velocidades, canhoto, modelo 2019, fabricado no Japão, pesa 195g, 7kg de arrasto, 10 rolamentos. Novo, nunca submerso, sem arranhões ou amassados",
+    "categoria": "SLX",
+    "preco": 1000,
+    "fotos": [
+      "img/item-9/1.jpg",
+      "img/item-9/2.jpg",
+      "img/item-9/3.jpg",
+      "img/item-9/4.jpg",
+      "img/item-9/5.jpg",
+      "img/item-9/6.jpg",
+      "img/item-9/7.jpg"
+    ],
+    "linkFornecedor": {
+      "sal": "I//dmIX1Gnhk2b0j6iTCaQ==",
+      "iv": "oFDoxkVorRI1lo7G",
+      "dados": "H6iI6YDbQHTsykUC1T9A2ZM+PHCAXDlSHXZHGGOIQh/cSef/NhT5CHMyVvfrs4HhDstHQ2PvOhs25NAqoJ9RZQ5fTj7TZdc4uCcRfBNSywW9lrxt/HPSI2DEtQ8IKpKuiEGzJKkK2VXRw3YtscCw3WkXCI23Og=="
+    }
   }
 ]
